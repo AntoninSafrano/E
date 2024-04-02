@@ -1,0 +1,16 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx-swt.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.base.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.controls.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.fxml.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.graphics.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.media.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.swing.jar",
+        "/Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib/javafx.web.jar",
+        "/Users/antonin/Downloads/mysql-connector-j-8.1.0.jar"
+    ]
+}

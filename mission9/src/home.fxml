@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #19747E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Homecontroller">
+   <children>
+      <Button fx:id="ButtonVoyageur" layoutX="67.0" layoutY="158.0" mnemonicParsing="false" onAction="#handleButtonPress" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #D1E8E2;" text="Liste des voyageurs" />
+      <Button fx:id="ButtonVoyageursansbagage" layoutX="66.0" layoutY="220.0" mnemonicParsing="false" onAction="#ButtonPress" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #D1E8E2;" text="Liste des voyageurs sans bagage(s)" />
+      <Text fx:id="texthello" fill="#d1e8e2" layoutX="109.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EasyLine" wrappingWidth="239.654296875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="ajout" layoutX="337.0" layoutY="220.0" mnemonicParsing="false" onAction="#Buttonajout" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #D1E8E2;" text="Ajouter un voyageur" />
+      <Button fx:id="Buttonvoyage" layoutX="337.0" layoutY="158.0" mnemonicParsing="false" onAction="#Buttonvoyage" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #D1E8E2;" text="Ajouter un voyage" />
+      <ImageView fitHeight="182.0" fitWidth="286.0" layoutX="-87.0" layoutY="-27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Users/antonin/Downloads/Design%20sans%20titre%20(6).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ModifierVoyageur" layoutX="67.0" layoutY="276.0" mnemonicParsing="false" onAction="#ModifierVoyageur" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #D1E8E2;" text="Modifier un voyageur" />
+   </children>
+</Pane>

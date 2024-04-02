@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mission9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Build/mission9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

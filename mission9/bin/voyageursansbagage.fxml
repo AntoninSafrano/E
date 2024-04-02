@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #A9D6E5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Voyageursansbagagecontroller">
+   <children>
+      <TableView fx:id="table" layoutX="14.0" layoutY="132.0" prefHeight="443.0" prefWidth="773.0">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="50.0" text="ID " />
+            <TableColumn fx:id="nom" prefWidth="255.0" text="Nom " />
+            <TableColumn fx:id="age" prefWidth="146.0" text="Age" />
+            <TableColumn fx:id="adresse" prefWidth="321.0" text="Adresse" />
+         </columns>
+      </TableView>
+      <Label layoutX="295.0" layoutY="68.0" prefHeight="17.0" prefWidth="25.0" text="ID : " />
+      <TextField fx:id="Input" layoutX="330.0" layoutY="62.0" prefHeight="27.0" prefWidth="124.0" />
+      <Text fx:id="alertText" fill="RED" layoutX="197.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="180.0" />
+      <Button fx:id="button" layoutX="465.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleButtonPress" prefHeight="27.0" prefWidth="56.0" text="Search" />
+   </children>
+</Pane>

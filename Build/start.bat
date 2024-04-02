@@ -1,0 +1,1 @@
+java -jar --enable-preview --module-path .\lib --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web mission9.jar

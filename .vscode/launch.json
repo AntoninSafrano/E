@@ -1,0 +1,44 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "EasyLine_ecc88153"
+        },
+        {
+            "type": "java",
+            "name": "BagageDAO",
+            "request": "launch",
+            "mainClass": "BagageDAO",
+            "projectName": "EasyLine_ecc88153"
+        },
+        {
+            "type": "java",
+            "name": "Bagage",
+            "request": "launch",
+            "mainClass": "Bagage",
+            "projectName": "EasyLine_ecc88153"
+        },
+        {
+            "type": "java",
+            "name": "VoyageurDAO",
+            "request": "launch",
+            "mainClass": "VoyageurDAO",
+            "projectName": "EasyLine_ecc88153"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "vmArgs": "--module-path /Applications/AMPPS/www/EasyLine/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media",
+            "mainClass": "Main",
+            "projectName": "EasyLine_ecc88153"
+        }
+    ]
+}
